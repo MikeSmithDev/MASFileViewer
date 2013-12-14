@@ -1,0 +1,5 @@
+F:\VS2012Sites\MASFileViewer\MASFileViewer\bin\MASFileViewer.dll
+F:\VS2012Sites\MASFileViewer\MASFileViewer\bin\MASFileViewer.pdb
+F:\VS2012Sites\MASFileViewer\MASFileViewer\obj\Debug\MASFileViewer.csprojResolveAssemblyReference.cache
+F:\VS2012Sites\MASFileViewer\MASFileViewer\obj\Debug\MASFileViewer.dll
+F:\VS2012Sites\MASFileViewer\MASFileViewer\obj\Debug\MASFileViewer.pdb

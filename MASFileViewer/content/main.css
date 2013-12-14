@@ -1,0 +1,19 @@
+﻿header {
+    padding: 10px;background-color: #ccc;font-weight: bold;border-bottom: solid 2px #999;margin-bottom: 20px;
+}
+header h1 {
+    font-size: 20px;margin: 0;font-weight: bold;
+}
+.sideBar {
+    background-color:#eee;padding: 40px;
+}
+
+footer .container {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: solid 1px #999;
+}
+
+.tree div {
+    min-height:40px !important;
+}

@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MASFileViewer.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <title>MASFileViewer</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/content/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <h1>MASFileViewer Example</h1>
+            </div>
+            <div class="col-xs-4 col-sm-3">
+                <a href="/">Using Current Directory</a>
+            </div>
+            <div class="col-xs-4 col-sm-3">
+                <a href="/rel.aspx">Using Relative Directory</a>
+            </div>
+            <div class="col-xs-4 col-sm-3">
+                <a href="/documents/">Another Current Directory</a>
+            </div>
+     </div>
+    </div>
+    </header>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="col-xs-8">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <div class="col-xs-4 sideBar">
+            <div id="_login" runat="server">
+                <h4>Login to see restricted files</h4>
+            
+                <input type="submit" value="Be Admin!" />
+            </div>
+            <div id="_loggedIn" runat="server">
+                You should now see the <strong>adminFiles</strong> folder.
+            </div>
+        </div>
+    </div>
+    </form>
+    <footer>
+        <div class="container">
+            <div class="col-xs-12">
+                See the blog post about this code and more coding articles at <a href="http://mikesmithdev.com">mikesmithdev.com</a>.
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>
