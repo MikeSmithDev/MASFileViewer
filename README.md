@@ -3,7 +3,7 @@ MASFileViewer
 
 A small example VS2012 C# project to show how to write a custom control using `ASP:TreeView` as a directory and file browsing tool, from http://mikesmithdev.com/blog/treeview-file-viewer-with-security/.
 
-The sample project is to show usage. The relevant code to put into your own project is `/controls/fileViewer.ascx.`
+The sample project  show's usage. The relevant code to put into your own project is `/controls/fileViewer.ascx.`
 
 1. By default it will recursively search the current directory (for the page the control is on) and all subdirectories. There is a public property called `AltRelFilePath` where you can specify any path you want to use.
 3. It will find any `web.config` in the directories and it will apply the authorization rules you have for that directory.
