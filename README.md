@@ -1,7 +1,7 @@
 MASFileViewer
 =======
 
-A small example VS2012 C# project to show how to write a custom control using `ASP:TreeView` as a directory and file browsing tool, from http://mikesmithdev.com/blog/treeview-file-viewer-with-security/.
+A small example VS2012 C# project to show how to write a custom control using `ASP:TreeView` as a directory and file browsing tool.
 
 The sample project is to show usage. The relevant code to put into your own project is `/controls/fileViewer.ascx.`
 
